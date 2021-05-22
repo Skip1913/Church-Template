@@ -1,0 +1,1002 @@
+.clearfix:before,
+.clearfix:after{
+    content:"";
+    display: block;
+}
+
+.clearfix:after{
+    clear: both; 
+}
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;  
+}
+
+
+body{
+    height:100%;
+    padding: 0;
+    margin: 0 auto;
+    font-size:16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height:1.8em;
+    text-align: center; 
+   
+}
+
+/*======================HAMBURGER MENU=================*/
+
+
+
+.hammenu{
+    width: 150px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -800px;
+    opacity: 100;
+    transition: 0.5s;
+}
+
+.ham-h3{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: turquoise;
+}
+
+.close-i{
+    color: black;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hamnav{
+    width: 150px;
+    position: relative;
+    top: 0;
+    opacity: 100;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* HamNav Title */
+#title{
+    font-size: 0;
+    transition: 0.3s;
+}
+
+.fa.fa-bars{
+    display: none;
+    padding: 2px;
+    color: white;
+    font-size: 1.7rem;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: rgba(41, 40, 40, 0.815);
+}
+
+.icon{
+    padding: 2px;
+    color: white;
+    font-size: 1.7rem;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+/* HamNav li */
+.hamli{
+    list-style: none;
+    padding: 5px;
+    margin: 2px auto;
+    text-align: center;
+}
+
+/* HamNav anchors */
+.ham-a{
+    color: white;
+    text-decoration: none;
+    margin: 5px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.ham-a:hover{
+   color:turquoise;
+   transition: .5s; 
+}
+
+
+
+
+/*======================END HAMBURGER MENU=================*/
+
+
+
+/* Header */
+
+.logo{
+    margin-top: 400px;
+}
+
+
+.navbar{
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 10px;
+   
+}
+
+.navbar li{
+    display: inline;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+
+
+button:hover{
+    background: rgb(74, 74, 74);
+    color: white; 
+   border-radius: 5px;
+}
+
+
+
+
+/* Main Content */
+
+.wrapper-1{
+   background-image: url("bible.jpg");
+   margin: 0 auto;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100%;
+   text-align: center;
+   color: white;
+   overflow-x:hidden;
+}
+
+button{
+    margin-top: 70px;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.center{
+    margin-bottom: 50px;
+}
+
+/* Main Content */
+
+
+.wrapper-2{
+    min-height: 10vh;
+    padding-bottom: 30px;
+    margin: auto;
+    width: 70%;  
+}
+
+.yt-1{
+    float: left;
+    clear: both;
+}
+
+.yt-2{
+    float: right;
+    top: 0px;
+    padding-left: 10px;
+    padding-right: 20px;
+    clear: both;
+}
+
+
+.p-text1{
+    color: rgb(168, 168, 168);
+    font-size: 40px;
+    line-height: 2.5rem;
+    display:flex;
+    margin-left: 10px;
+    margin-bottom: 0px;
+   
+}
+
+.p-text2{
+    color: rgb(168, 168, 168);
+    font-size: 40px;
+    line-height: 2.5rem;
+    display:flex;
+    margin-left: 10px;
+}
+
+
+
+
+
+.btn-sub{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: white;
+    background-color:black;
+}
+
+.btn-sub:hover{
+background: rgb(74, 74, 74);
+}
+
+
+
+.col-1-h{
+    text-align: center;
+}
+
+.col-2{
+    float: right;
+    margin-top: 100px;
+}
+
+.col-2-h{
+   text-align: center;
+    
+    
+}
+
+.img-4{
+    float: right;
+    top: 0px;
+    padding-left: 10px;
+    padding-right: 20px;
+    clear: both;
+}
+.btn-sub2{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+    background-color:black; 
+}
+
+ul{
+    text-align: center;
+    display: block;
+}
+
+
+.center{
+    text-align: center;
+}
+
+.wrapper-3{
+    min-height: 60vh;
+    background-image: url('hands.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;  
+}
+
+.cont-3{
+    padding-top: 30px;
+}
+
+.p-text3{
+    float: right;
+    color: white;
+    font-size: 60px;
+    line-height: 4.5rem;
+    display:flex;
+    margin-left: 10px;
+    width: 30%;
+    position: relative;
+    right: 35rem;
+}
+
+span{
+    display: block;
+  
+}
+
+div.btn-cont1{
+    margin-top: 80px;
+}
+
+
+.btn-cont1 > button{
+    display: block;
+    position: relative;
+    left: 450px;
+    opacity: .9;
+    margin-top: 50px;
+    padding-left:20px;
+    padding-right: 20px;
+    width: 10%;
+}
+
+.btn-cont1 > button:hover{
+    background-color: rgb(47, 47, 47);
+}
+
+div.lg-dis-wp{
+    min-height: 10vh;
+    background-color:#ffffff;
+    padding-bottom: 100px;
+    width: 80%;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+
+.subwrap{
+    text-align: center;
+}
+
+.img-4{
+    margin-right: 50px;
+}
+
+.w-h{
+   text-align: left;
+   margin-top: 50px;
+   display: block;
+   font-size: 50px;
+}
+
+.p-text4{
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    line-height: 2.5rem;
+    display: block;
+    margin-left: 10px;
+    margin-top: 90px;
+    width: 30%;
+}
+
+.app-btn{
+    float: left;
+    margin-left: 200px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.app-btn:hover{
+    background-color: gray;
+}
+
+.wrapper-5{
+    background-color: black;
+    border: 2px solid black;
+    padding-bottom: 0px;
+  
+
+}
+
+/* Lower Nav */
+
+.img-5{
+    float: right;
+    margin-right: 60px;
+ 
+ }
+ 
+ .d-app{
+     color: white;
+     text-align: right;
+     margin-right: 200px;
+ }
+
+
+ 
+ .p-app{
+     color: white;
+     text-align: right;
+     margin-bottom: 30px;
+     margin-right: 90px;
+ }
+ 
+ .p-app > a{
+     padding-left: 3px;
+     padding-right: 3px;
+ }
+
+.navmenu > ul{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    margin-left: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+ a{
+    font-size: 17px;
+    padding: 10px;
+}
+
+a:hover{
+    color:turquoise;
+    text-decoration: underline;
+}
+
+.f-link{
+    color: turquoise;
+}
+
+.f-link:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.Messages{
+    float: left;
+    color: white;
+}
+
+.Messages > ul > li{
+    display: block;
+   
+}
+
+
+.About{
+    float: left;
+    color: white;
+    
+    
+}
+
+.About  > h5, li{
+    display: block;
+}
+
+
+.Locations{
+   float: left;
+   color: white;
+    
+}
+
+.Locations > li{
+    display: block;
+}
+
+.Give{
+    float: left;
+    color: white;
+     
+ }
+ 
+ .Give > li{
+     display: block;
+ }
+
+.Grow{
+   float: left;
+   color: white;
+    
+}
+
+.Grow > li{
+    display: block;
+}
+
+
+
+/* Footer & Social Media Links */
+footer{
+    
+    background-color: black;
+    color: white;
+    padding: 100px;
+    border-top: solid 2px gray;
+    text-align: left;  
+}
+
+.med-cons{
+    text-align: center;
+}
+.f-para{
+    text-align: center;
+}
+
+.fa {  
+    width: 25px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 4px;
+    color: white;
+    border-radius: 50%; 
+  }
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+  }
+
+  .fa-instagram {
+    background: #8a3ab9;
+  }
+
+  .fa-whatsapp {
+    background: #4FCE5D;
+  }
+
+
+  /*======= MEDIA QURIES =========*/
+
+@media(max-width: 475px){
+   
+    .navbar{
+        display: none;
+    }
+
+    a.icon{
+        margin: 0;
+    }
+
+    .fa.fa-bars{
+        display: block;
+        padding: 5px;
+        color: white;
+        font-size: 1.7rem;
+        position: absolute;
+        right: 30px;
+        top: 5px;
+        background-color: rgba(41, 40, 40, 0.815);
+    }
+
+    .logo{
+        margin: 80px auto;
+    }
+
+    .wrapper-1{
+        background-image: url("bible.jpg");
+        margin-top: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        color: white;
+     }
+
+    .intro{
+        min-height: 10vh;
+    }
+    ul{
+        display: block;
+    }
+
+    .link, a{
+        display: block;
+    }
+
+    .wrapper-2{
+        margin: 5px auto;
+    }
+
+    iframe{
+        width: 200px;
+        height: 150px;
+        margin: 5px auto;
+    }
+
+    .p-text1, .p-text2{
+        display: block;
+        margin: 5px auto;
+    }
+
+    .yt-1{
+        float: none;
+        clear: both;
+    }
+    
+    .yt-2{
+        float: none;
+        top: 0px;
+       
+        clear: both;
+    }
+
+    .btn-sub{
+        margin: 20px auto;
+    }
+
+    .btn-sub2{
+        margin: 20px auto;
+    }
+
+    button.btn-cont1{
+        display: none;
+    }
+
+    button.mid-btn{
+        display: none;
+    }
+
+    .col-2{
+        float: none;
+        margin-top: 100px;
+    }
+
+   .app-btn2{
+       float: none;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .img-5{
+        display: none;
+    }
+
+    .wrapper-3.clearfix{
+        height: 200px;
+        background-image: url('hands.jpg');
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white; 
+        
+    }
+
+    .p-text3{
+        float: none;
+        margin: 20px auto;
+        display:none;
+        position: relative;
+        left: 0px;
+        font-size: 40px;
+        width: 80%;
+    }
+
+   div.cont-3{
+       height: 10px;
+   }
+
+  
+
+   .wrapper-4.clearfix.lg-dis-wp{
+        float: none;
+        width: 80%;
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        margin: 20px auto;
+    }
+
+  
+
+    .subwrap{
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .p-text4{
+        margin: auto;
+        width: 100%;
+    }
+
+    .img-4{
+        height: 300px;
+        width: 150px;
+        float: none;
+        top: 0px;
+        padding: 0;
+        clear: both;
+        display: block;
+        margin: 20px auto;
+    }
+
+    h2.w-h{
+        line-height: 50px;
+    }
+
+    .wrapper-5{
+        margin: auto;
+        display: block;
+    }
+
+    h3.d-app{
+        margin: auto;
+        text-align: center;
+    }
+
+    p.p-app{
+        margin: auto;
+        text-align: center;
+    }
+
+    .wrapper-5.navmenu{
+        text-align: center;
+    }
+
+    ul.Grow.btm-ul{
+        float: none;
+        margin: auto;
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+
+    ul.Messages.btm-ul{
+        margin: auto;
+        float: none;
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+
+    ul.About.btm-ul{
+        margin: auto;
+        float: none;
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+
+    ul.Locations.btm-ul{
+        margin: auto;
+        float: none;
+        text-align: center;
+        display: block;
+        padding: 0;  
+    }
+
+    ul.Grow.btm-ul{
+        margin: auto;
+        float: none;
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+
+    ul.Give.btm-ul{
+        margin: auto;
+        float: none;
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+}
+
+@media(max-width: 529px){
+    .navbar{
+        display: none;
+    }
+
+    .fa.fa-bars{
+        display: block;
+        padding: 5px;
+        color: white;
+        font-size: 1.7rem;
+        position: absolute;
+        right: 30px;
+        top: 5px;
+        background-color: rgba(41, 40, 40, 0.815);
+    }
+}
+
+@media(max-width: 768px){
+    ul.navbar.btm-bar{
+        margin: 2px auto;
+        padding: 5px;
+    }
+
+    li.link{
+        padding: 5px;
+    }
+    
+    .btn-cont1{
+        display: none;
+    }
+
+    .btn-sub2{
+        margin: 10px auto;
+    }
+
+    .app-btn2{
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .img-4{
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    div.subwrap{
+        margin: 20px auto;
+    }
+
+    .p-text3{
+        float: none;
+        margin: 20px auto;
+        display: block;
+        position: relative;
+        left: 0px;
+    }
+
+    .wrapper-4.clearfix.lg-dis-wp{
+        float: none;
+        width: 80%;
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        margin: 20px auto;
+    }
+}
+
+@media(max-width: 1012px){
+    button.mid-btn{
+        margin: 50px auto;
+    }
+
+    .btn-sub{
+        margin: 10px auto;
+    }
+}
+
+@media(max-width: 1192px){
+
+    .p-text1, .p-text2{
+        display: block;
+        margin: 5px auto;
+    }
+
+    .yt-1{
+        float: none;
+        clear: both;
+        width: 200px;
+        height: 150px;
+    }
+    
+    .yt-2{
+        float: none;
+        top: 0px;
+        clear: both;
+        width: 200px;
+        height: 150px;
+    }
+}
+
+@media(max-width: 1706px){
+
+ 
+
+
+}
+
+@media(max-width: 2310px){
+
+    .btn-cont1{
+    margin-top: 80px;
+    margin-bottom: 80px;    
+    }
+
+    .navmenu{
+        margin: auto;
+        text-align: center;
+    }
+
+    .d-app{
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .p-app{
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    h3{
+        margin: 20px auto;
+    }
+    .img-5{
+       display: none;
+    }
+
+    ul.Grow.btm-ul{
+        float: none;
+        margin: auto;
+        text-align: center;
+        display: inline;
+        padding: 0;
+    }
+
+    ul.Messages.btm-ul{
+        margin: auto;
+        float: none;
+        text-align: center;
+        display: inline;
+        padding: 0;
+    }
+
+    ul.About.btm-ul{
+        margin: auto;
+        float: none;
+        text-align: center;
+        display: inline;
+        padding: 0;
+    }
+
+    ul.Locations.btm-ul{
+        margin: auto;
+        float: none;
+        text-align: center;
+        display: inline;
+        padding: 0;  
+    }
+
+    ul.Grow.btm-ul{
+        margin: auto;
+        float: none;
+        text-align: center;
+        display: inline;
+        padding: 0;
+    }
+
+    ul.Give.btm-ul{
+        margin: auto;
+        float: none;
+        text-align: center;
+        display: inline;
+        padding: 0;
+    }
+
+  
+    
+
+}
